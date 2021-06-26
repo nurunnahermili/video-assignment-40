@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fda2531ac85fb425c0fda797a21c9ef9") format("truetype"),
+url("./flaticon.woff?fda2531ac85fb425c0fda797a21c9ef9") format("woff"),
+url("./flaticon.woff2?fda2531ac85fb425c0fda797a21c9ef9") format("woff2"),
+url("./flaticon.eot?fda2531ac85fb425c0fda797a21c9ef9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fda2531ac85fb425c0fda797a21c9ef9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "scholarship": "\f101",
+    "loan": "\f102",
+    "agriculture": "\f103",
+    "quotation": "\f104",
+    "personal": "\f105",
+    "analytics": "\f106",
+    "protection": "\f107",
+    "loan-1": "\f108",
+);
+
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-quotation:before {
+    content: map-get($flaticon-map, "quotation");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon-map, "protection");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}

@@ -1,0 +1,236 @@
+@media (max-width: 1200px) {
+  .main-header .header-info .header-call-info a {
+    font-size: 13px;
+  }
+  .main-header .our-header-menu ul li a {
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+  .navbar-brand img {
+    width: 90px;
+  }
+  .main-header .header-info .header-button .my-btn {
+    padding: 4px 10px !important;
+    width: 100px;
+  }
+  .slider-section .slider-contant-wrap .slider-contant h1 {
+    font-size: 25px;
+  }
+  .about-section .about-img .about-img-text {
+    right: 16px;
+    height: 180px;
+    width: 180px;
+  }
+  .why-choose-us .why-us-text .us-text .play-animation-btn {
+    right: 566px;
+  }
+  .service-section .services-tab ul {
+    border-bottom: none;
+  }
+  .service-section .services-tab-contant .service-image {
+    padding-right: 105px;
+  }
+  .service-section .services-tab-contant .service-text ul {
+    margin-bottom: -20px;
+  }
+  .service-section .services-tab-contant .service-text p {
+    font-size: 14px;
+  }
+  .service-section .services-tab-contant .service-text h4 {
+    font-size: 18px;
+  }
+  .service-section .services-tab-contant {
+    margin-bottom: -140px;
+  }
+  .slider-section {
+    background: url(img/main-banner2.jpg) no-repeat center center;
+    background-size: cover;
+    padding: -23px 0;
+  }
+}
+
+@media (max-width: 1050px) {
+  .service-section .service-head h1 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .service-section .service-head p {
+    font-size: 16px;
+  }
+  .service-section .services-tab ul li a strong {
+    font-size: 16px;
+  }
+  .service-section .services-tab ul li a span {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 65px;
+  }
+  .service-section .services-tab ul li a.active span::after {
+    display: none;
+  }
+  .service-section .services-tab-contant .service-image img {
+    width: 522px;
+    margin-left: 49px;
+  }
+  .testimonial-section .testimonial-content p {
+    font-size: 16px;
+    margin-right: 30px;
+  }
+  .why-choose-us .feature-items .feature-item {
+    margin-top: 20px;
+  }
+  .service-section .services-tab-contant .service-text {
+    width: 774px;
+    height: 300px;
+    margin-left: 90px;
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-header .header-info {
+    display: none;
+  }
+  .service-section .services-tab ul {
+    padding-left: 100px;
+  }
+  .service-section .services-tab ul li a.active span::after {
+    display: none;
+  }
+  .service-section .services-tab-contant .service-image img {
+    width: 400px;
+    margin-left: 25px;
+  }
+  .service-section .services-tab-contant .service-text {
+    width: 450px;
+    height: 550px;
+    margin-bottom: 80px;
+    line-height: 2em;
+  }
+  .testimonial-section .testimonial-content p {
+    font-size: 16px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-text {
+    margin-top: 30px;
+  }
+  .about-section .about-text .finix-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .about-section .about-text .finix-text p {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  .about-section .about-text .finix-text ul li {
+    padding: 3px 0px;
+  }
+  .why-choose-us .why-us-text .us-text .play-animation-btn {
+    right: 227px;
+  }
+  .service-section .services-tab ul {
+    padding-left: 40px;
+  }
+  .service-section .services-tab ul li a.active span::after {
+    display: none;
+  }
+  .testimonial-section .testimonial-image img {
+    width: 350px;
+  }
+  .testimonial-section .testimonial-content p {
+    font-size: 15px;
+  }
+  .testimonial-section .testimonial-content p {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .testimonial-section .testimonial-image {
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .testimonial-section .testimonial-content .client-details h5 {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-choose-us .why-us-text .us-text .play-animation-btn {
+    right: 72px;
+  }
+  .why-choose-us .why-us-text .us-text img {
+    width: 530px;
+    margin-bottom: 40px;
+  }
+  .service-section .services-tab ul {
+    padding-left: 20px;
+  }
+  .service-section .services-tab ul li a.active span::after {
+    display: none;
+  }
+  .testimonial-section .testimonial-content p {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .testimonial-section .testimonial-image {
+    margin-left: 70px;
+  }
+  .testimonial-section .testimonial-image img {
+    width: 300px;
+  }
+  .testimonial-section .testimonial-content .client-details h5 {
+    margin-left: 70px;
+  }
+  .footer .bottom-footer .footer-copy p {
+    font-size: 12px;
+  }
+  .footer .bottom-footer .footer-copy p a {
+    font-size: 14px;
+  }
+  .team-member-section .team-member .member-image img {
+    width: 350px;
+    height: 400px;
+  }
+  .team-member-section .team-member .member-image {
+    margin: auto;
+    text-align: center;
+  }
+  .team-member-section .team-member .member-content h5 {
+    text-align: center;
+    margin: auto;
+  }
+  .team-member-section .team-member .member-content h6 {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .testimonial-section .testimonial-image {
+    margin-left: 30px;
+  }
+  .testimonial-section .testimonial-content .client-details h5 {
+    margin-left: 30px;
+  }
+  .testimonial-section .testimonial-content .client-details p {
+    margin-left: 30px;
+  }
+  .service-section .services-tab-contant .service-image {
+    width: 250px;
+  }
+  .service-section .services-tab-contant .service-image img {
+    width: 300px;
+    margin-left: 5px;
+  }
+  .service-section .services-tab-contant .service-text {
+    margin-left: 10px;
+    width: 300px;
+    height: 650px;
+    margin-top: -140px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
